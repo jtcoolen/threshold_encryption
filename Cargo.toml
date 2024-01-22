@@ -1,0 +1,25 @@
+[package]
+name = "threshold_encryption"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-bls12-381 = "0.4.0"
+ark-ec = { version = "0.4.2" }
+ark-ff = { version = "0.4.2", features = [ "asm", "parallel" ] }
+ark-poly = "0.4.2"
+ark-serialize = "0.4.2"
+ark-serialize-derive = "0.4.2"
+ark-std = "0.4.0"
+blake3 = "1.5.0"
+clippy = "0.0.302"
+num = "0.4.1"
+num-bigint = "0.4.4"
+quickcheck = "1.0.3"
+rand = "0.8.5"
+# blst = "0.3.11"
+sha2 = { version = "0.10", default-features = false }
+
+
